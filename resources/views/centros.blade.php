@@ -24,8 +24,8 @@ tr:nth-child(even) {
   background-color: #dddddd;
 }
 </style>
-<!--
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+<!-- <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -87,7 +87,7 @@ tr:nth-child(even) {
     <div class="content">
     <img src="/w3images/nature.jpg" alt="Imagenes" style="width:100%">
       <h4>Imagenes</h4>
-      <p>.............................</p>
+      <p>..............................</p>
     </div>
   </div>
   
@@ -95,14 +95,14 @@ tr:nth-child(even) {
     <div class="content">
       <img src="/w3images/cars1.jpg" alt="Imagenes" style="width:100%">
       <h4>Imagenes</h4>
-      <p>L...........................</p>
+      <p>.............................</p>
     </div>
   </div>
   <div class="column cars">
     <div class="content">
     <img src="/w3images/cars2.jpg" alt="Imagenes" style="width:100%">
       <h4>Imagenes</h4>
-      <p>L..........................</p>
+      <p>.............................</p>
     </div>
   </div>
 </div>
