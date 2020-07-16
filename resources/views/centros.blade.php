@@ -6,57 +6,7 @@
 
 <style>
 
-.row {
-  margin: 10px -16px;
-}
-
-/* Add padding BETWEEN each column */
-.row,
-.row > .column {
-  padding: 8px;
-}
-
-/* Create three equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 33.33%;
-  display: none; /* Hide all elements by default */
-}
-
-/* Clear floats after rows */ 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-
-
-/* The "show" class is added to the filtered elements */
-.show {
-  display: block;
-}
-
-/* Style the buttons */
-.btn {
-  border: none;
-  outline: none;
-  padding: 12px 16px;
-  background-color: white;
-  cursor: pointer;
-}
-
-.btn:hover {
-  background-color: #ddd;
-}
-
-.btn.active {
-  background-color: #666;
-  color: white;
-}
-
-
-/*Tbales*/
+/*Tablas*/
 
 table {
   font-family: arial, sans-serif;
@@ -112,50 +62,49 @@ tr:nth-child(even) {
 
 
 
-  
   <div class="item active">
-     <img src="{{asset('img/11.png')}}" alt="Los Angeles" style="width:100%;">
+     <img src="{{asset('img/11.png')}}" alt="Imagenes" style="width:100%;">
    </div>
 
  <div class="container">
 
   <div class="column nature">
     <div class="content">
-     <img src="{{asset('img/ubicacion.png')}}" alt="Los Angeles" style="width:100%;">
+     <img src="{{asset('img/ubicacion.png')}}" alt="Imagenes" style="width:30%;">
+   
+      <h2>Centro de Atencion y Cuidado Infantil</h2>
+      <h3>Luz Maria Gomez Pazuela</h3>
+      </div>
+  </div>
+  <div class="column nature">
+    <div class="content">
+    <img src="/w3images/lights.jpg" alt="Imagenes" style="width:100%">
       <h4>Imagenes</h4>
-      <p>Lorem ipsum dolor..</p>
+      <p>.............................</p>
     </div>
   </div>
   <div class="column nature">
     <div class="content">
-    <img src="/w3images/lights.jpg" alt="Lights" style="width:100%">
-      <h4>Lights</h4>
-      <p>Lorem ipsum dolor..</p>
-    </div>
-  </div>
-  <div class="column nature">
-    <div class="content">
-    <img src="/w3images/nature.jpg" alt="Nature" style="width:100%">
-      <h4>Forest</h4>
-      <p>Lorem ipsum dolor..</p>
+    <img src="/w3images/nature.jpg" alt="Imagenes" style="width:100%">
+      <h4>Imagenes</h4>
+      <p>.............................</p>
     </div>
   </div>
   
   <div class="column cars">
     <div class="content">
-      <img src="/w3images/cars1.jpg" alt="Car" style="width:100%">
-      <h4>Retro</h4>
-      <p>Lorem ipsum dolor..</p>
+      <img src="/w3images/cars1.jpg" alt="Imagenes" style="width:100%">
+      <h4>Imagenes</h4>
+      <p>L...........................</p>
     </div>
   </div>
   <div class="column cars">
     <div class="content">
-    <img src="/w3images/cars2.jpg" alt="Car" style="width:100%">
-      <h4>Fast</h4>
-      <p>Lorem ipsum dolor..</p>
+    <img src="/w3images/cars2.jpg" alt="Imagenes" style="width:100%">
+      <h4>Imagenes</h4>
+      <p>L..........................</p>
     </div>
   </div>
-aarrr
 </div>
 
 </div>

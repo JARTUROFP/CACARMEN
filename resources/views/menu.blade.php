@@ -53,27 +53,33 @@ div.c {
 <body>
 
 
-	
-<div class="container">
-     <div class="container">
-        <div class="row">
-          <div class="col-md-8 col-sm-6 col-xs-12">
-        <div>
-          
-        
- <img src="{{asset('img/semovi.png')}}"  alt="Chicago" style="width:40%;">
 
-        
-        </div>
-          </div>
-          <div class="col-md-4 col-sm-6 col-xs-12">
-         
- <img src="{{asset('img/logo CACI.png')}}"  alt="Chicago" style="width:80%; margin-bottom: -130px;">
 
-          </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-sm-6 col-xs-12">
+           <p>
+          <img src="{{asset('img/Logo_CDMX.png')}}" alt="Imagenes" style="width:250px;">
+          </p>
+      </div>
+      <div class="col-md-4 col-sm-6 col-xs-12">
+          <p>
+          <img src="{{asset('img/logo CACI.png')}}" alt="Imagenes" style="width:300px;">
+          </p> 
         </div>
       </div>
+     </div>
 
+
+
+
+
+
+
+
+	
+<div class="container">
+    
 
 
 <!-- Static navbar -->
