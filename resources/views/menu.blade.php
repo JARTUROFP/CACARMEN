@@ -17,11 +17,7 @@
 
   <link href="{{ asset('css/nav.css')}}" rel="stylesheet"/>
   <link href="{{ asset('css/footer.css')}}" rel="stylesheet"/>
-
-
-<link href="{{ asset('css/bulma.css')}}" rel="stylesheet"/>
-
-	
+  
 </head>
 <style>
 div.a {
@@ -46,15 +42,11 @@ div.c {
   height: 120px;
   border: 3px solid green;
 } 
+
 </style>
 
 
-
 <body>
-
-
-
-
   <div class="container">
     <div class="row">
       <div class="col-md-8 col-sm-6 col-xs-12">
@@ -70,14 +62,6 @@ div.c {
       </div>
      </div>
 
-
-
-
-
-
-
-
-	
 <div class="container">
     
 

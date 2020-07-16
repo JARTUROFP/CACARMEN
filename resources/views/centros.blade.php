@@ -23,6 +23,36 @@ td, th {
 tr:nth-child(even) {
   background-color: #dddddd;
 }
+
+
+/*Img*/
+
+.blog-img
+{
+    position: relative;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.blog-img img:hover {
+    opacity: 1;
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+}
+.blog-img img {
+    width: 100%;
+    opacity: 0.8;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+
+
+
 </style>
 
 <!-- <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -69,13 +99,19 @@ tr:nth-child(even) {
  <div class="container">
 
   <div class="column nature">
+
+
+  
     <div class="content">
+    		<div class="blog-img">
      <img src="{{asset('img/ubicacion.png')}}" alt="Imagenes" style="width:30%;">
-   
+    </div>
       <h2>Centro de Atencion y Cuidado Infantil</h2>
       <h3>Luz Maria Gomez Pazuela</h3>
-      </div>
-  </div>
+    </div>
+
+
+
   <div class="column nature">
     <div class="content">
     <img src="/w3images/lights.jpg" alt="Imagenes" style="width:100%">
@@ -98,13 +134,7 @@ tr:nth-child(even) {
       <p>.............................</p>
     </div>
   </div>
-  <div class="column cars">
-    <div class="content">
-    <img src="/w3images/cars2.jpg" alt="Imagenes" style="width:100%">
-      <h4>Imagenes</h4>
-      <p>.............................</p>
-    </div>
-  </div>
+
 </div>
 
 </div>

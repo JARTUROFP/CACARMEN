@@ -75,6 +75,8 @@ button:hover {
 .step.finish {
   background-color: #00b140;
 }
+
+
 </style>
 
 
@@ -170,7 +172,7 @@ button:hover {
     </div>
   </div>
   <!-- Circles which indicates the steps of the form: -->
-  <div style="text-align:center;margin-top:40px;">
+  <div style="text-align:center;margin-top:400px;">
     <span class="step"></span>
     <span class="step"></span>
     <span class="step"></span>
